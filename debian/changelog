@@ -1,4 +1,4 @@
-linux-rockchip-5.10.160 (5.10.160-5) jammy; urgency=medium
+linux-rockchip (5.10.160-5) jammy; urgency=medium
 
   * revert "iwlwifi: pnvm: pretend to have loaded pnvm file on 5.10 bsp (#60)"
 
