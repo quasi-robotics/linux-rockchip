@@ -1,4 +1,10 @@
-linux-rockchip (5.10.160-5) jammy; urgency=medium
+linux-rockchip-5.10 (5.10.16-6) jammy; urgency=medium
+
+  * New debian packaging
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 01 Jul 2023 11:59:01 -0400
+
+linux-rockchip-5.10-160 (5.10.160-5) jammy; urgency=medium
 
   * revert "iwlwifi: pnvm: pretend to have loaded pnvm file on 5.10 bsp (#60)"
 
