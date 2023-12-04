@@ -29,7 +29,7 @@ config:
 build-indep:
 build-arch: config
 	$(MAKE) -f $(srctree)/Makefile \
-	  KERNELRELEASE=$(KDEB_PKGVERSION)-rockchip \
+	  KERNELRELEASE=$(KDEB_PKGVERSION)-rockchip-quasi \
 	  KDEB_PKGVERSION=$(KDEB_PKGVERSION)-$(PATCH_VERSION) \
 	  CROSS_COMPILE=$(CROSS_COMPILE) \
 	  ARCH=arm64 \
@@ -40,7 +40,7 @@ build: build-arch
 binary-indep:
 binary-arch: build-arch
 	$(MAKE) -f $(srctree)/Makefile intdeb-pkg \
-	  KERNELRELEASE=$(KDEB_PKGVERSION)-rockchip \
+	  KERNELRELEASE=$(KDEB_PKGVERSION)-rockchip-quasi \
 	  KDEB_PKGVERSION=$(KDEB_PKGVERSION)-$(PATCH_VERSION) \
 	  CROSS_COMPILE=$(CROSS_COMPILE) \
 	  ARCH=arm64 \
