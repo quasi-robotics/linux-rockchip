@@ -1,3 +1,9 @@
+linux-rockchip (5.10.0-1006.6-quasi) jammy; urgency=medium
+
+  * UBUNTU: enabled preemptible kernel
+
+ -- Fedor Bokov <fedor@quasi.ai>  Wed, 05 Jun 2024 18:25:59 -0400
+
 linux-rockchip (5.10.0-1006.6) jammy; urgency=medium
 
   * UBUNTU: disable goodix touchscreen driver

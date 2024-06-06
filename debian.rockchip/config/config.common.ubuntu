@@ -83,8 +83,8 @@ CONFIG_HIGH_RES_TIMERS=y
 # end of Timers subsystem
 
 # CONFIG_PREEMPT_NONE is not set
-CONFIG_PREEMPT_VOLUNTARY=y
-# CONFIG_PREEMPT is not set
+# CONFIG_PREEMPT_VOLUNTARY=y
+CONFIG_PREEMPT=y
 
 #
 # CPU/Task time and stats accounting
@@ -8588,8 +8588,8 @@ CONFIG_ARCH_HAS_UBSAN_SANITIZE_ALL=y
 # CONFIG_UBSAN is not set
 # end of Generic Kernel Debugging Instruments
 
-CONFIG_DEBUG_KERNEL=y
-CONFIG_DEBUG_MISC=y
+CONFIG_DEBUG_KERNEL=n
+CONFIG_DEBUG_MISC=n
 
 #
 # Memory Debugging
